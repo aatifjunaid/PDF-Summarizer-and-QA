@@ -60,7 +60,7 @@ def generate_response(text, prompt, model):
 # 6. Streamlit App
 # ---------------------------
 def main():
-    st.title("📄 Advanced PDF Summarizer")
+    st.title("📄 PDF Summarizer")
     st.markdown("Upload a PDF and either summarize it or ask a custom question.")
 
     uploaded_file = st.file_uploader("Upload your PDF", type="pdf")
@@ -96,3 +96,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

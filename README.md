@@ -7,7 +7,8 @@ Upload any PDF and either:
 Built with Streamlit, pdfplumber, and Hugging Face Transformers.
 
 ---
-
+Streamlit Link: https://pdf-summarizer-app-aatif.streamlit.app/
+---
 Run locally
 ```bash
 pip install -r requirements.txt
